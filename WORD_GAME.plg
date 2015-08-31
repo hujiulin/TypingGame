@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WORD_GAME - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/WORD_GAME.res" /d "_DEBUG" /d "_AFXDLL" "I:\Me\coinidea\coinidea_GitHub\TypingGame\WORD_GAME.rc"" 
+Creating temporary file "C:\Users\FOX\AppData\Local\Temp\RSP62AC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WORD_GAME.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_IMAGE.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_Music.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_USER_HARD.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_USER_LOG.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_USER_RANK.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\DIALOG_USER_REGISTER.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\Dialog_USER_RULE.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\WORD_GAME.cpp"
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\WORD_GAMEDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\FOX\AppData\Local\Temp\RSP62AC.tmp" 
+Creating temporary file "C:\Users\FOX\AppData\Local\Temp\RSP62AD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WORD_GAME.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\Me\coinidea\coinidea_GitHub\TypingGame\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\FOX\AppData\Local\Temp\RSP62AD.tmp" 
+Creating temporary file "C:\Users\FOX\AppData\Local\Temp\RSP62AE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WORD_GAME.pdb" /debug /machine:I386 /out:"Debug/WORD_GAME.exe" /pdbtype:sept 
+.\Debug\Dialog_IMAGE.obj
+.\Debug\Dialog_Music.obj
+.\Debug\Dialog_USER_HARD.obj
+.\Debug\Dialog_USER_LOG.obj
+.\Debug\Dialog_USER_RANK.obj
+.\Debug\DIALOG_USER_REGISTER.obj
+.\Debug\Dialog_USER_RULE.obj
+.\Debug\StdAfx.obj
+.\Debug\WORD_GAME.obj
+.\Debug\WORD_GAMEDlg.obj
+.\Debug\WORD_GAME.res
+]
+Creating command line "link.exe @C:\Users\FOX\AppData\Local\Temp\RSP62AE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Dialog_IMAGE.cpp
+Dialog_Music.cpp
+Dialog_USER_HARD.cpp
+Dialog_USER_LOG.cpp
+Dialog_USER_RANK.cpp
+DIALOG_USER_REGISTER.cpp
+Dialog_USER_RULE.cpp
+WORD_GAME.cpp
+WORD_GAMEDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\FOX\AppData\Local\Temp\RSP67FC.tmp" with contents
+[
+/nologo /o"Debug/WORD_GAME.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Dialog_IMAGE.sbr
+.\Debug\Dialog_Music.sbr
+.\Debug\Dialog_USER_HARD.sbr
+.\Debug\Dialog_USER_LOG.sbr
+.\Debug\Dialog_USER_RANK.sbr
+.\Debug\DIALOG_USER_REGISTER.sbr
+.\Debug\Dialog_USER_RULE.sbr
+.\Debug\WORD_GAME.sbr
+.\Debug\WORD_GAMEDlg.sbr]
+Creating command line "bscmake.exe @C:\Users\FOX\AppData\Local\Temp\RSP67FC.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+WORD_GAME.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

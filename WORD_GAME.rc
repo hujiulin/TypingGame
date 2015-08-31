@@ -1,0 +1,599 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WORD_GAME.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\WORD_GAME.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\music.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 199, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 英语单词练习游戏"
+FONT 10, "楷体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,12,20,20
+    LTEXT           "英语单词练习游戏 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "胡久林 @BNU 版权所有 (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,160,7,32,14,WS_GROUP
+END
+
+IDD_WORD_GAME_DIALOG DIALOGEX 0, 0, 807, 431
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "英语单词练习游戏"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退出游戏",IDOK,727,341,50,21
+    CONTROL         "",IDC_STATIC_XIAN6,"Static",SS_ETCHEDVERT | SS_SUNKEN,
+                    699,7,1,417
+    GROUPBOX        "用户",IDC_STATIC_YONGHU,705,7,95,71
+    GROUPBOX        "键盘区",IDC_STATIC_JIANPAN,7,261,688,139
+    DEFPUSHBUTTON   "开始游戏",ID_START,727,313,50,21
+    PUSHBUTTON      "Q",IDC_BUTTONQ,7,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "W",IDC_BUTTONW,79,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "E",IDC_BUTTONE,149,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "R",IDC_BUTTONR,221,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "T",IDC_BUTTONT,291,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Y",IDC_BUTTONY,363,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "U",IDC_BUTTONU,433,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "I",IDC_BUTTONI,505,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "O",IDC_BUTTONO,575,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "P",IDC_BUTTONP,647,271,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "A",IDC_BUTTONA,27,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "S",IDC_BUTTONS,91,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "D",IDC_BUTTOND,157,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "F",IDC_BUTTONF,221,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "G",IDC_BUTTONG,287,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "H",IDC_BUTTONH,351,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "J",IDC_BUTTONJ,417,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "K",IDC_BUTTONK,481,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "L",IDC_BUTTONL,547,317,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Z",IDC_BUTTONZ,123,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "X",IDC_BUTTONX,191,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "C",IDC_BUTTONC,257,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "V",IDC_BUTTONV,325,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "B",IDC_BUTTONB,391,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "N",IDC_BUTTONN,459,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "M",IDC_BUTTONM,525,361,48,39,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "CapsLock",IDC_BUTTONCAPSLOCK,7,361,98,39,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Enter",IDC_BUTTONEnter,597,361,98,39,0,WS_EX_CLIENTEDGE
+    CTEXT           "姓名：",IDC_NAME,711,19,32,14,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "",IDC_NAMEA,744,19,49,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_NAMEB,744,38,49,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_SCORE,744,57,49,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "昵称：",IDC_NAME1,711,38,32,14,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "成绩：",IDC_NAME2,711,57,32,14,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CONTROL         "",IDC_STATIC_XIAN1,"Static",SS_ETCHEDHORZ | SS_SUNKEN,
+                    705,87,95,1
+    GROUPBOX        "游戏选项",IDC_STATIC_XUANXIANG,705,93,95,168
+    CTEXT           "单词量：",IDC_STATIC_COUNT,711,108,47,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "拼写难度：",IDC_STATIC_HARD,711,127,47,16,
+                    SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "出词频率：",IDC_STATIC_HZ,711,146,47,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "移动速率：",IDC_STATIC_MOVE,711,166,47,16,
+                    SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "背景音乐：",IDC_STATIC_BACK_MUSIC,711,187,47,16,
+                    SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "关",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    765,185,24,8
+    CONTROL         "开",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    765,195,24,8
+    CTEXT           "图片：",IDC_STATIC_IMAGE_TYPE,711,238,38,17,
+                    SS_CENTERIMAGE | WS_BORDER
+    CTEXT           "随机",IDC_WRITE_HARD,759,127,34,16,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_COUNT,759,108,34,16,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_OUT,759,146,34,16,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_MOVE,759,166,34,16,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "游戏:",IDC_STATIC_GAME,711,278,38,17,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "",IDC_PROCESS,753,278,40,17,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "",IDC_STATIC_XIAN7,"Static",SS_ETCHEDHORZ | SS_SUNKEN,
+                    705,305,95,1
+    CONTROL         "",IDC_STATIC_XIAN2,"Static",SS_ETCHEDHORZ | SS_SUNKEN,
+                    705,272,95,1
+    CTEXT           "",IDC_NOW,262,246,191,18,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "BackSpace",IDC_BUTTONBACKSPACE,611,317,75,39,0,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_STATIC_MUSIC,712,208,81,18,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_IMAGE,753,238,40,17,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "",IDC_STATIC_XIAN4,"Static",SS_BLACKFRAME | SS_SUNKEN,7,
+                    254,251,1
+    CONTROL         "",IDC_STATIC_XIAN5,"Static",SS_BLACKFRAME | SS_SUNKEN,
+                    457,254,226,1
+    LISTBOX         IDC_LIST1,7,7,688,238,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CONTROL         186,IDC_BNU,"Static",SS_BITMAP,705,376,95,29
+    CONTROL         "",IDC_STATIC_XIAN3,"Static",SS_ETCHEDHORZ | SS_SUNKEN,
+                    705,369,94,1
+END
+
+IDD_USER_LOG DIALOG DISCARDABLE  0, 0, 187, 92
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "登录",IDOK,55,65,25,14
+    CTEXT           "请输入用户姓名：",IDC_STATIC,34,26,65,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "请输入密码：",IDC_STATIC,34,44,65,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_USERNAME,105,26,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CODE,105,44,48,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "注册",ID_REGISTER,97,65,25,14
+    CTEXT           "欢迎进入单词练习",IDC_STATIC,52,8,84,13,SS_CENTERIMAGE | 
+                    WS_BORDER
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,7,20,20
+END
+
+IDD_MUSIC DIALOG DISCARDABLE  0, 0, 149, 177
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "音乐背景"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,114,6,26,10
+    PUSHBUTTON      "取消",IDCANCEL,114,23,26,10
+    GROUPBOX        "音乐列表",IDC_STATIC,5,5,86,167
+    LISTBOX         IDC_LIST1,15,18,70,149,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT | SS_SUNKEN,100,0,1,
+                    172
+    PUSHBUTTON      "选择音乐",IDC_MAKE,105,157,35,10
+    CONTROL         183,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,105,
+                    36,35,118
+END
+
+IDD_USER_REGISTER DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,56,70,26,14
+    PUSHBUTTON      "取消",IDCANCEL,113,70,26,14
+    CTEXT           "请输入用户姓名：",IDC_STATIC,34,13,65,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "请输入用户昵称：",IDC_STATIC,34,32,65,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_USERNAME,105,13,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CODE,105,51,48,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CTEXT           "请输入密码：",IDC_STATIC,34,51,65,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    EDITTEXT        IDC_EDIT_NICK,105,32,48,12,ES_AUTOHSCROLL
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,16,16
+END
+
+IDD_IMAGE DIALOG DISCARDABLE  0, 0, 208, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图片选择"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,174,27,27,14
+    PUSHBUTTON      "取消",IDCANCEL,174,54,27,14
+    CONTROL         "气球",IDC_RADIO_BALL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,31,18,31,10
+    CONTROL         "小鱼",IDC_RADIO_SNOW,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,116,18,31,10
+    GROUPBOX        "图片",IDC_STATIC,14,7,151,71
+    CONTROL         173,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,21,32,
+                    53,41
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,104,
+                    32,53,41
+END
+
+IDD_RANK DIALOG DISCARDABLE  0, 0, 144, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "排行榜"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,109,140,28,14
+    CTEXT           "英语单词打字游戏",IDC_STATIC,34,7,76,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "排名",IDC_STATIC,16,27,39,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "姓名",IDC_STATIC,59,27,37,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "得分",IDC_STATIC,106,27,23,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Top1",IDC_STATIC,16,47,37,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Top2",IDC_STATIC,16,64,37,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Top3",IDC_STATIC,16,81,37,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Top4",IDC_STATIC,16,98,37,13,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Top5",IDC_STATIC,16,115,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT | SS_SUNKEN,55,44,1,
+                    90
+    CTEXT           "",IDC_STATIC_NAME1,59,47,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_NAME2,59,64,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_NAME3,59,81,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_NAME4,59,98,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_NAME5,59,115,37,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT | SS_SUNKEN,100,44,
+                    1,90
+    CTEXT           "",IDC_STATIC_SCORE1,104,47,25,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_SCORE2,104,64,25,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_SCORE3,104,81,25,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_SCORE4,104,98,25,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_STATIC_SCORE5,104,115,25,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+IDD_HARD DIALOG DISCARDABLE  0, 0, 211, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "难度设置"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,167,89,35,14
+    CTEXT           "单词量：",IDC_STATIC,30,28,45,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "拼写难度：",IDC_STATIC,30,42,45,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "出词频率：",IDC_STATIC,30,56,45,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "移动速率：",IDC_STATIC,30,70,45,12,SS_CENTERIMAGE | 
+                    WS_BORDER
+    COMBOBOX        IDC_COMBO1,84,26,43,94,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,84,41,43,84,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,84,56,43,86,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,84,71,43,68,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "英语单词打字游戏",IDC_STATIC,65,8,80,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    PUSHBUTTON      "设置",IDC_shezhihao,167,72,35,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,188,7,16,16
+END
+
+IDD_RULE DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏规则"
+FONT 12, "楷体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,160,75,20,14
+    GROUPBOX        "游戏规则",IDC_STATIC,7,7,152,69
+    LTEXT           "一款打字游戏，用户注册，登陆后，可对游戏选项进行相应地设置，开始游戏，键入响应的单词，可获得相应的分数，系统会为您记录下分数，并记录排行榜。",
+                    IDC_STATIC,16,21,134,47,SS_NOTIFY
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WORD_GAME Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WORD_GAME\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WORD_GAME.EXE\0"
+            VALUE "ProductName", "WORD_GAME 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_WORD_GAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 800
+        VERTGUIDE, 695
+        VERTGUIDE, 699
+        VERTGUIDE, 705
+        VERTGUIDE, 800
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 424
+        HORZGUIDE, 219
+        HORZGUIDE, 245
+        HORZGUIDE, 250
+        HORZGUIDE, 255
+        HORZGUIDE, 261
+        HORZGUIDE, 300
+        HORZGUIDE, 305
+        HORZGUIDE, 345
+        HORZGUIDE, 350
+        HORZGUIDE, 395
+        HORZGUIDE, 400
+    END
+
+    IDD_USER_LOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_MUSIC, DIALOG
+    BEGIN
+        RIGHTMARGIN, 140
+        VERTGUIDE, 5
+        VERTGUIDE, 15
+        VERTGUIDE, 91
+        VERTGUIDE, 100
+        VERTGUIDE, 105
+        VERTGUIDE, 110
+        VERTGUIDE, 114
+        VERTGUIDE, 140
+        HORZGUIDE, 167
+        HORZGUIDE, 172
+    END
+
+    IDD_USER_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_IMAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_RANK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_HARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "用户(&U)"
+    BEGIN
+        MENUITEM "登录(&L)",                    ID_LOG
+        MENUITEM "注册(&R)",                    ID_REGISTER
+    END
+    POPUP "游戏选项(&G)"
+    BEGIN
+        MENUITEM "游戏难度(&D)",                ID_HARD
+        MENUITEM "图片类别(&I)",                ID_IMAGE
+        MENUITEM "背景音乐(&B)",                ID_MUSIC
+    END
+    MENUITEM "排行榜(&R)",                  ID_RANK
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "游戏规则(R)",                 ID_RULE
+        MENUITEM "关于游戏(&A)",                ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "image\\ball_1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "image\\ball_2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "image\\ball_3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "image\\ball_4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "image\\ball_5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "image\\ball_6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "image\\ball_7.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "image\\ball_8.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "image\\music.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "image\\BNU_DESKTOP.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "image\\fish1.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "image\\fish2.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "image\\fish3.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "image\\fish4.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "image\\fish5.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "image\\fish6.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "image\\fish7.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "image\\fhis8.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "image\\ball_1 - 副本.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "image\\ball_2 - 副本.bmp"
+IDB_BITMAP21            BITMAP  DISCARDABLE     "image\\ball_3 - 副本.bmp"
+IDB_BITMAP22            BITMAP  DISCARDABLE     "image\\ball_4 - 副本.bmp"
+IDB_BITMAP23            BITMAP  DISCARDABLE     "image\\ball_5 - 副本.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "image\\ball_6 - 副本.bmp"
+IDB_BITMAP25            BITMAP  DISCARDABLE     "image\\ball_7 - 副本.bmp"
+IDB_BITMAP26            BITMAP  DISCARDABLE     "image\\ball_8 - 副本.bmp"
+IDB_BITMAP27            BITMAP  DISCARDABLE     "image\\fish1 - 副本.bmp"
+IDB_BITMAP28            BITMAP  DISCARDABLE     "image\\fish2 - 副本.bmp"
+IDB_BITMAP29            BITMAP  DISCARDABLE     "image\\fish3 - 副本.bmp"
+IDB_BITMAP30            BITMAP  DISCARDABLE     "image\\fish4 - 副本.bmp"
+IDB_BITMAP31            BITMAP  DISCARDABLE     "image\\fish5 - 副本.bmp"
+IDB_BITMAP32            BITMAP  DISCARDABLE     "image\\fish6 - 副本.bmp"
+IDB_BITMAP33            BITMAP  DISCARDABLE     "image\\fish7 - 副本.bmp"
+IDB_BITMAP34            BITMAP  DISCARDABLE     "image\\fhis8 - 副本.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 WORD_GAME(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\WORD_GAME.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
